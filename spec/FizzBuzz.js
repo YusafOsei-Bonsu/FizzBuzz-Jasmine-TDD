@@ -5,4 +5,6 @@ module.exports = FizzBuzz = (value) => {
     else if (value % 3 === 0) return "Fizz";
     // If the number is divisible by 5, but not 3
     else if (value % 5 === 0) return "Buzz";
+    // if the number isn't divisible by 3 or 5
+    else return value;
 }

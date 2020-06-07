@@ -14,4 +14,7 @@ describe('FizzBuzz', () => {
 
     // Testing Fizzbuzz with a number (i.e. 10) that's divisible by 5, but not 3
     it("Should return 'Buzz'", () => expect(FizzBuzz(10)).toEqual("Buzz"));
+
+    // Testing FizzBuzz with a number (i.e. 13) that's not divisible by either 3 or 5 
+    it("Should return the provided value", () => expect(FizzBuzz(13)).toEqual(13));
 });
